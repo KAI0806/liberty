@@ -10091,6 +10091,10 @@ input:placeholder-shown {
     display: none;
 }
 
+.mw_wp_form_input{
+    margin-bottom: 3em;
+}
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -13154,7 +13158,7 @@ dl.dl-horizontal dt {
 }
 
 #main--image.main-contact {
-    background-image: url("../img/main/main-contact-v=20190521122629.jpg");
+    background-image: url("../img/main/contact.jpg");
 }
 
 #main--image.main-works {
