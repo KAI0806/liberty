@@ -13932,7 +13932,6 @@ dl.dl-horizontal dt {
 #aside--contect .btn-contact{
     height: 70px;
     border: 2px solid #111;
-    padding: 24px 30px 20px 60px;
     text-align: center;
     border-radius: 0;
     color: #111;
@@ -14097,13 +14096,15 @@ dl.dl-horizontal dt {
 
 }
 
-#index #index--about .section--title {
+#index #index--about .section--title,
+#manzoku .Satisfaction .section--title {
     position: relative;
     z-index: 2;
 }
 
 @media (max-width:991px) {
-    #index #index--about .section--title {
+    #index #index--about .section--title,
+    #manzoku .Satisfaction .section--title {
         text-align: center
     }
 
@@ -15186,36 +15187,52 @@ dl.dl-horizontal dt {
 /* end 吹き出し */
 
 /* 満足度 */
-.Satisfaction{
+#satisfaction{
     margin: 3em auto;
 }
 
-.Satisfaction .container .row{
+#satisfaction .container {
     display: flex;
     justify-content: center;
+    flex-direction: row-reverse;
 }
 
-.Satisfaction .container .row .col-lg-7{
+#satisfaction .container .col-lg-7{
     padding-top: 3em;
 }
 
 .reft_img{
     width: 40%;
-    overflow: hidden;
     padding-bottom: .9em;
 }
 
 .reft_img h3{
     background-color: lightgray;
-    z-index: 1000;
+    box-shadow: 10px 10px grey;
+    z-index: 5000;
     position: relative;
 }
 
 .number1_img{
     background: url("../img/main/number1.jpg") no-repeat center center/cover;
-    height: 100%;
+    height: 90%;
     width: auto;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
 }
+
+@media screen and (max-width: 767px){
+    #satisfaction .container {
+        display: block;
+    }
+
+    .reft_img{
+        margin: auto;
+        width: 100%;
+    }
+}
+
 /* end　満足度 */
 
 /* SNS */
@@ -15226,15 +15243,26 @@ dl.dl-horizontal dt {
 
 .sns a{
     margin: auto 5em;
-    transition: all .3s ease-in-out;
 }
 
 .sns a:hover{
     opacity: .4;
+    transition: all .3s ease-in-out;
 }
 
 .sns_line{
     max-width: 64px;
+}
+
+@media screen and (max-width:767px){
+    .sns a{
+        margin: auto .5em;
+    }
+
+    .sns img{
+        width: 32px;
+        height: auto;
+    }
 }
 /* end SNS */
 
