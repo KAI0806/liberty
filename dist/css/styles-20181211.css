@@ -12818,7 +12818,7 @@ dl.dl-horizontal dt {
 #gnav ul li a:focus span:before,
 #gnav ul li a:hover span:before {
     opacity: 1;
-    background: #1AA3FF;
+    background: #004ca3;
     height: 2px;
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -13130,7 +13130,7 @@ dl.dl-horizontal dt {
 }
 
 #main--image.main-order-house {
-    background-image: url("../img/main/main-order-house-v=20190521122629.jpg");
+    background-image: url("../img/main/estate.jpg");
 }
 
 #main--image.main-ready-build {
@@ -13457,7 +13457,7 @@ dl.dl-horizontal dt {
 #inquiry a:focus,
 #inquiry a:hover {
     text-decoration: none;
-    background-color: #0097d9;
+    background-color: #004ca3;
 }
 
 #inquiry a:active svg,
@@ -13519,7 +13519,7 @@ dl.dl-horizontal dt {
 
 #pagetop:hover{
     border-radius: 50%;
-    background-color: #1AA3FF;
+    background-color: #004ca3;
     transition: all .3s ease-in-out;
 }
 
@@ -15204,7 +15204,7 @@ dl.dl-horizontal dt {
 
 .reft_img h3{
     background-color: lightgray;
-    box-shadow: 10px 10px grey;
+    box-shadow: 10px 10px #002147;
     z-index: 5000;
     position: relative;
 }
