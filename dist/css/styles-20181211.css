@@ -10579,7 +10579,7 @@ iframe {
 }
 
 #hamburger {
-    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
     position: fixed;
     top: 0;
     right: 0;
@@ -10678,7 +10678,7 @@ iframe {
 
 #drawer {
     display: none;
-    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
     -webkit-transition: all .4s cubic-bezier(.215, .61, .355, 1);
     transition: all .4s cubic-bezier(.215, .61, .355, 1);
     -webkit-transition-timing-function: cubic-bezier(.215, .61, .355, 1);
@@ -10719,6 +10719,7 @@ iframe {
 @media (max-width:991px) {
     #drawer {
         padding-top: 60px;
+        opacity: .9;
     }
 
 }
@@ -10764,7 +10765,6 @@ iframe {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-top: 5px;
 }
 
 #drawer #drawer--body .drawer--nav ul li {
@@ -10788,7 +10788,7 @@ iframe {
 }
 
 #drawer #drawer--body .drawer--nav li {
-    padding: 5px 0;
+    padding: 1.5em 0;
 }
 
 #drawer #drawer--body .drawer--nav li a,
