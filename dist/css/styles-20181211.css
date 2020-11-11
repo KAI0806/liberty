@@ -13146,7 +13146,7 @@ dl.dl-horizontal dt {
 }
 
 #main--image.main-company {
-    background-image: url("../img/main/main-company-v=20190521122629.jpg");
+    background-image: url("../img/company/compa_top.jpg");
 }
 
 #main--image.main-faq {
@@ -14851,6 +14851,8 @@ dl.dl-horizontal dt {
     position: absolute;
     left: 0;
     z-index: 2;
+    background-color: lightgray;
+    box-shadow: 10px 10px #002147;
 }
 
 @media (max-width:991px) {
@@ -14880,7 +14882,7 @@ dl.dl-horizontal dt {
     top: 0;
     width: calc(100% - 20px);
     height: 100%;
-    background-image: url("../img/company/img01-v=20190521122629.jpg");
+    background-image: url("../img/company/President.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -14931,12 +14933,6 @@ dl.dl-horizontal dt {
     padding-left: 10px;
     padding-right: 10px;
     font-weight: 700;
-}
-
-#company #profile .section--title {
-    margin-bottom: -30px;
-    position: relative;
-    z-index: 3;
 }
 
 #company #profile .wrapper {
