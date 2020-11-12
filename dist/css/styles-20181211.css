@@ -13146,7 +13146,7 @@ dl.dl-horizontal dt {
 }
 
 #main--image.main-purchase {
-    background-image: url("../img/main/main-purchase-v=20190521122629.jpg");
+    background-image: url("../img/main/s&hd.jpg");
 }
 
 #main--image.main-company {
@@ -13933,9 +13933,11 @@ dl.dl-horizontal dt {
     top: -20px;
 }
 
-#aside--contect .btn-contact{
+#aside--contect .btn-contact,
+#aside--contect .btn-tel {
     height: 70px;
     border: 2px solid #111;
+    padding: 24px 30px 20px 60px;
     text-align: center;
     border-radius: 0;
     color: #111;
@@ -13944,15 +13946,22 @@ dl.dl-horizontal dt {
     margin-bottom: 10px;
 }
 
-#aside--contect .btn-contact svg{
+#aside--contect .btn-contact svg,
+#aside--contect .btn-tel svg {
     position: absolute;
     left: -60px;
-    top: -5px;
     width: 25px;
     z-index: 2;
 }
 
-#aside--contect .btn-contact:after {
+#aside--contect .btn-contact span,
+#aside--contect .btn-tel span{
+    position:relative;
+    z-index:2;
+}
+
+#aside--contect .btn-contact:after, 
+#aside--contect .btn-tel:after{
     content: "";
     position: absolute;
     left: 0;
@@ -13968,20 +13977,35 @@ dl.dl-horizontal dt {
 
 #aside--contect .btn-contact:active,
 #aside--contect .btn-contact:focus,
-#aside--contect .btn-contact:hover {
+#aside--contect .btn-contact:hover,
+#aside--contect .btn-tel:active,
+#aside--contect .btn-tel:focus,
+#aside--contect .btn-tel:hover {
     color: #fff;
 }
 
 #aside--contect .btn-contact:active svg,
 #aside--contect .btn-contact:focus svg,
-#aside--contect .btn-contact:hover svg {
+#aside--contect .btn-contact:hover svg,
+#aside--contect .btn-tel:active svg,
+#aside--contect .btn-tel:focus svg,
+#aside--contect .btn-tel:hover svg {
     fill: #fff;
 }
 
 #aside--contect .btn-contact:active:after,
 #aside--contect .btn-contact:focus:after,
-#aside--contect .btn-contact:hover:after {
+#aside--contect .btn-contact:hover:after,
+#aside--contect .btn-tel:active:after,
+#aside--contect .btn-tel:focus:after,
+#aside--contect .btn-tel:hover:after {
     width: 100%;
+}
+
+#aside--contect .btn-tel{
+    letter-spacing:2px;
+    font-size:1.2rem;
+    line-height:130%;
 }
 
 #index #index--information .information--title {
@@ -14001,7 +14025,7 @@ dl.dl-horizontal dt {
         width: 100%;
         -ms-flex: 0 0 100%;
         -webkit-box-flex: 0;
-        flex: 0 0 100%
+        flex: 0 0 100%;
     }
 
 }
@@ -14040,7 +14064,7 @@ dl.dl-horizontal dt {
         width: 100%;
         -ms-flex: 0 0 100%;
         -webkit-box-flex: 0;
-        flex: 0 0 100%
+        flex: 0 0 100%;
     }
 
 }
@@ -14059,14 +14083,14 @@ dl.dl-horizontal dt {
         width: 100%;
         -ms-flex: 0 0 100%;
         -webkit-box-flex: 0;
-        flex: 0 0 100%
+        flex: 0 0 100%;
     }
 
 }
 
 @media (max-width:991px) {
     #index #index--information .information--body .information--link {
-        margin-bottom: 5px
+        margin-bottom: 5px;
     }
 
 }
@@ -14076,7 +14100,7 @@ dl.dl-horizontal dt {
         width: 100%;
         -ms-flex: 0 0 100%;
         -webkit-box-flex: 0;
-        flex: 0 0 100%
+        flex: 0 0 100%;
     }
 
 }
@@ -14095,7 +14119,7 @@ dl.dl-horizontal dt {
         width: 100%;
         -ms-flex: 0 0 100%;
         -webkit-box-flex: 0;
-        flex: 0 0 100%
+        flex: 0 0 100%;
     }
 
 }
@@ -14109,7 +14133,7 @@ dl.dl-horizontal dt {
 @media (max-width:991px) {
     #index #index--about .section--title,
     #manzoku .Satisfaction .section--title {
-        text-align: center
+        text-align: center;
     }
 
 }
@@ -14133,7 +14157,7 @@ dl.dl-horizontal dt {
     #index #index--about .about--bg {
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 0
+        margin-bottom: 0;
     }
 
 }
@@ -14141,7 +14165,7 @@ dl.dl-horizontal dt {
 @media (max-width:767px) {
     #index #index--about .about--bg {
         top: -25px;
-        margin-bottom: 0
+        margin-bottom: 0;
     }
 
 }
@@ -14149,7 +14173,7 @@ dl.dl-horizontal dt {
 @media (max-width:991px) {
     #index #index--about .about--wrapper {
         padding-left: 20px;
-        padding-right: 20px
+        padding-right: 20px;
     }
 
 }
@@ -14162,14 +14186,14 @@ dl.dl-horizontal dt {
 
 @media (max-width:991px) {
     #index #index--about .about--heading {
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 
 }
 
 @media (max-width:991px) {
     #index #index--about .about--heading {
-        font-size: 1.8rem
+        font-size: 1.8rem;
     }
 
 }
@@ -14256,7 +14280,7 @@ dl.dl-horizontal dt {
 }
 
 #index #index--service #service01 .service--bg.lazyloaded {
-    background-image: url("../img/index/service01-v=20190521122629.jpg");
+    background-image: url("../img/main/estate.jpg");
 }
 
 #index #index--service #service02 {
@@ -14271,7 +14295,7 @@ dl.dl-horizontal dt {
 }
 
 #index #index--service #service02 .service--bg.lazyloaded {
-    background-image: url("../img/index/service02-v=20190521122629.jpg");
+    background-image: url("../img/main/insurance.jpg");
 }
 
 #index #index--service #service03 {
@@ -14286,7 +14310,7 @@ dl.dl-horizontal dt {
 }
 
 #index #index--service #service03 .service--bg.lazyloaded {
-    background-image: url("../img/index/service03-v=20190521122629.jpg");
+    background-image: url("../img/main/Consulting.jpg");
 }
 
 #index #index--service #service04 {
@@ -14301,7 +14325,7 @@ dl.dl-horizontal dt {
 }
 
 #index #index--service #service04 .service--bg.lazyloaded {
-    background-image: url("../img/index/service04-v=20190521122629.jpg");
+    background-image: url("../img/main/s&hd.jpg");
 }
 
 #about #sec01 .about--heading {
@@ -14312,14 +14336,14 @@ dl.dl-horizontal dt {
 
 @media (max-width:991px) {
     #about #sec01 .about--heading {
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 
 }
 
 @media (max-width:991px) {
     #about #sec01 .about--heading {
-        font-size: 1.8rem
+        font-size: 1.8rem;
     }
 
 }
@@ -14465,7 +14489,7 @@ dl.dl-horizontal dt {
     #order-house #sec01 .heading {
         text-align: left;
         font-size: 1.7rem;
-        line-height: 160%
+        line-height: 160%;
     }
 
 }
@@ -14501,7 +14525,7 @@ dl.dl-horizontal dt {
         padding-right: 5px;
         white-space: nowrap;
         font-size: .9rem;
-        line-height: 150%
+        line-height: 150%;
     }
 
 }
@@ -14525,7 +14549,7 @@ dl.dl-horizontal dt {
 @media (max-width:991px) {
     #order-house #plans .plan--wrapper {
         padding-top: 40px;
-        padding-bottom: 0
+        padding-bottom: 0;
     }
 
 }
@@ -14646,7 +14670,7 @@ dl.dl-horizontal dt {
         border: none;
         width: auto;
         float: none;
-        margin-left: 0
+        margin-left: 0;
     }
 
 }
@@ -14677,7 +14701,7 @@ dl.dl-horizontal dt {
     #order-house #flow .flow--list li {
         padding-left: 50px;
         padding-top: 0;
-        padding-bottom: 20px
+        padding-bottom: 20px;
     }
 
 }
@@ -14702,7 +14726,7 @@ dl.dl-horizontal dt {
 
 @media (max-width:767px) {
     #order-house #flow .flow--list li:after {
-        left: 0
+        left: 0;
     }
 
 }
@@ -14719,7 +14743,7 @@ dl.dl-horizontal dt {
 
 @media (max-width:767px) {
     #order-house #flow .flow--list li:before {
-        left: 15px
+        left: 15px;
     }
 
 }
@@ -14755,7 +14779,7 @@ dl.dl-horizontal dt {
         width: 100%;
         -ms-flex: 100%;
         -webkit-box-flex: 100%;
-        flex: 100%
+        flex: 100%;
     }
 
 }
@@ -14766,7 +14790,7 @@ dl.dl-horizontal dt {
 
 #ready-build #bg01 {
     padding-top: 75%;
-    background-image: url("../img/service/ready-build/img01-v=20190521122629.jpg");
+    background-image: url("../img/service/ready-build/Fire_insurance.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -14795,28 +14819,39 @@ dl.dl-horizontal dt {
 
 #purchase #bg01 {
     padding-top: 75%;
-    background-image: url("../img/service/purchase/img01-v=20190521122629.jpg");
+    background-image: url("../img/service/purchase/sales.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#purchase #bg02 {
+    padding-top: 75%;
+    background-image: url("../img/service/purchase/seminar.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 @media (max-width:991px) {
-    #purchase #bg01 {
+    #purchase #bg01,
+    #purchase #bg02 {
         padding-top: 400px
     }
 
 }
 
 @media (max-width:767px) {
-    #purchase #bg01 {
+    #purchase #bg01,
+    #purchase #bg02 {
         padding-top: 350px
     }
 
 }
 
 @media (max-width:575px) {
-    #purchase #bg01 {
+    #purchase #bg01,
+    #purchase #bg02 {
         padding-top: 300px
     }
 
@@ -14824,7 +14859,7 @@ dl.dl-horizontal dt {
 
 #rental-housing #bg01 {
     padding-top: 75%;
-    background-image: url("../img/service/rental-housing/img01-v=20190521122629.jpg");
+    background-image: url("../img/service/rental-housing/consul.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -15237,6 +15272,7 @@ dl.dl-horizontal dt {
 
 /* SNS */
 .sns{
+    margin-top: 3em;
     display: flex;
     justify-content: center;
 }
