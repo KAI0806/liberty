@@ -2364,10 +2364,10 @@ select:focus,
 textarea:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #5acdff;
+    border-color: #002245;
     outline: 0;
-    -webkit-box-shadow: 0 0 0 .2rem rgba(0, 151, 217, .25);
-    box-shadow: 0 0 0 .2rem rgba(0, 151, 217, .25);
+    -webkit-box-shadow: 0 0 0 .2rem #002245;
+    box-shadow: 0 0 0 .2rem #002245;
 }
 
 .form-control::-webkit-input-placeholder,
@@ -3065,15 +3065,15 @@ fieldset[disabled] a.btn {
 .btn-primary,
 input[type=submit] {
     color: #fff;
-    background-color: #0097d9;
-    border-color: #0097d9;
+    background-color: #004ca3;
+    border-color: #004ca3;
 }
 
 .btn-primary:hover,
 input:hover[type=submit] {
     color: #fff;
-    background-color: #007cb3;
-    border-color: #0074a6;
+    background-color: #004ca3;
+    border-color: #004ca3;
 }
 
 .btn-primary.focus,
@@ -3088,8 +3088,8 @@ input:focus[type=submit] {
 .btn-primary:disabled,
 input.disabled[type=submit],
 input:disabled[type=submit] {
-    background-color: #0097d9;
-    border-color: #0097d9;
+    background-color: #004ca3;
+    border-color: #004ca3;
 }
 
 .btn-primary:not([disabled]):not(.disabled).active,
@@ -14280,7 +14280,7 @@ dl.dl-horizontal dt {
 }
 
 #index #index--service #service01 .service--bg.lazyloaded {
-    background-image: url("../img/main/estate.jpg");
+    background-image: url("../img/main/Consulting.jpg");
 }
 
 #index #index--service #service02 {
@@ -14310,7 +14310,7 @@ dl.dl-horizontal dt {
 }
 
 #index #index--service #service03 .service--bg.lazyloaded {
-    background-image: url("../img/main/Consulting.jpg");
+    background-image: url("../img/main/estate.jpg");
 }
 
 #index #index--service #service04 {
@@ -14846,7 +14846,7 @@ dl.dl-horizontal dt {
 
 }
 
-#company #sec02 .mb40{
+#company #sec02 .mb60{
     background: lightgrey;
     box-shadow: 10px 10px #002245;
 }
