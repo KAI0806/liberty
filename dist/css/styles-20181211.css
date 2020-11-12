@@ -13014,11 +13014,11 @@ dl.dl-horizontal dt {
     color: #fff;
 }
 
-#hero--image #hero--text.active #hero--text--wrapper #hero-text-l1>span:after,
+/* #hero--image #hero--text.active #hero--text--wrapper #hero-text-l1>span:after,
 #hero--image #hero--text.active #hero--text--wrapper #hero-text-l1>span:before {
     opacity: 1;
     top: -50%;
-}
+} */
 
 #hero--image #hero--text #hero--text--wrapper {
     position: relative;
@@ -14786,6 +14786,35 @@ dl.dl-horizontal dt {
 
 #order-house #flow .flow--list li:last-child:before {
     content: none;
+}
+
+#order-house #bg01 {
+    padding-top: 75%;
+    background-image: url("../img/service/order-house/tokyo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (max-width:991px) {
+    #order-house #bg01 {
+        padding-top: 400px
+    }
+
+}
+
+@media (max-width:767px) {
+    #order-house #bg01 {
+        padding-top: 350px
+    }
+
+}
+
+@media (max-width:575px) {
+    #order-house #bg01 {
+        padding-top: 300px
+    }
+
 }
 
 #ready-build #bg01 {
