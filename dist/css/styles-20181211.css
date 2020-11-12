@@ -12259,6 +12259,8 @@ dl.dl-horizontal dt {
     opacity: 0;
 }
 
+
+/* ローディング */
 #loading-wrapper {
     position: fixed;
     left: 0;
@@ -12525,7 +12527,7 @@ dl.dl-horizontal dt {
 }
 
 #header.headroom--not-top #gnav ul li a span:before {
-    background-color: #111;
+    background-color: #45B035;
 }
 
 #header #header--bg {
@@ -12822,7 +12824,7 @@ dl.dl-horizontal dt {
 #gnav ul li a:focus span:before,
 #gnav ul li a:hover span:before {
     opacity: 1;
-    background: #004ca3;
+    background: #45B035;
     height: 2px;
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -13461,7 +13463,7 @@ dl.dl-horizontal dt {
 #inquiry a:focus,
 #inquiry a:hover {
     text-decoration: none;
-    background-color: #004ca3;
+    background-color: #45B035;
 }
 
 #inquiry a:active svg,
@@ -13523,7 +13525,7 @@ dl.dl-horizontal dt {
 
 #pagetop:hover{
     border-radius: 50%;
-    background-color: #004ca3;
+    background-color: #45B035;
     transition: all .3s ease-in-out;
 }
 
@@ -13968,7 +13970,7 @@ dl.dl-horizontal dt {
     top: 0;
     width: 0;
     height: 100%;
-    background-color: #111;
+    background-color: #45B035;
     -webkit-transition: all .4s cubic-bezier(.165, .84, .44, 1);
     transition: all .4s cubic-bezier(.165, .84, .44, 1);
     -webkit-transition-timing-function: cubic-bezier(.165, .84, .44, 1);
@@ -14002,7 +14004,7 @@ dl.dl-horizontal dt {
     width: 100%;
 }
 
-#aside--contect .btn-tel{
+#aside--contact .btn-tel{
     letter-spacing:2px;
     font-size:1.2rem;
     line-height:130%;
@@ -15348,3 +15350,8 @@ dl.dl-horizontal dt {
     }
 }
 /* end SNS */
+
+.tel-link a{
+    color: #000;
+    font-size: large;
+}
