@@ -9777,8 +9777,8 @@ input[type=submit] {
 
 .btn-black {
     position: relative;
-    background-color: #111;
-    border: 2px solid #111;
+    background-color: #45B035;
+    border: 2px solid #45B035;
     text-align: left;
     border-radius: 0;
     font-weight: 700;
@@ -9979,7 +9979,7 @@ textarea {
 
 
 input[type=submit] {
-    background-color: #111;
+    background-color: #45B035;
     min-width: 240px;
     padding: 15px 30px;
     font-family: "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック体", "Yu Gothic", YuGothic, "メイリオ", Meiryo, sans-serif;
@@ -9989,7 +9989,7 @@ input[type=submit] {
 input[type=submit]:active,
 input[type=submit]:focus,
 input[type=submit]:hover {
-    background-color: #45B035;;
+    background-color: #71d063;
 }
 
 
@@ -12669,7 +12669,7 @@ dl.dl-horizontal dt {
     z-index: -1;
     opacity: 0;
     pointer-events: none;
-    color: #fff;
+    color: #000;
     margin-left: -100px;
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
@@ -12691,7 +12691,7 @@ dl.dl-horizontal dt {
     border-width: 10px;
     border-color: transparent;
     border-style: solid;
-    border-bottom-color: #000;
+    border-bottom-color: #45B035;
     z-index: 10;
 }
 
@@ -12710,11 +12710,11 @@ dl.dl-horizontal dt {
     padding: 0;
     margin: 0;
     padding: 15px 0;
-    background-color: #222;
+    background-color: #45B035;
 }
 
 .dropdown a {
-    background-color: #222;
+    background-color: #45B035;
     -webkit-transition: all .4s cubic-bezier(.165, .84, .44, 1);
     transition: all .4s cubic-bezier(.165, .84, .44, 1);
     -webkit-transition-timing-function: cubic-bezier(.165, .84, .44, 1);
@@ -12724,12 +12724,15 @@ dl.dl-horizontal dt {
     display: block;
     text-align: center;
     font-weight: 700;
+    border-left: 5px solid #45B035;
+    border-right: 5px solid #45B035;
 }
 
 .dropdown a:active,
 .dropdown a:focus,
 .dropdown a:hover {
-    background-color: #45B035;
+    background-color: #fff;
+    color: #45B035;
     text-decoration: none;
 }
 
@@ -12947,9 +12950,9 @@ dl.dl-horizontal dt {
 #footer .footer--bottom {
     position: relative;
     z-index: 2;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(255, 255, 255, 0.705);
     padding: 60px 0;
-    color: #fff;
+    color: #000;
 }
 
 #footer .footer--bottom address {
@@ -12965,7 +12968,7 @@ dl.dl-horizontal dt {
 #footer #copyright {
     font-size: .9rem;
     line-height: 20px;
-    color: #fff;
+    color: #000;
 }
 
 /* スライダー */
@@ -13375,7 +13378,7 @@ dl.dl-horizontal dt {
     display: block;
     width: 120px;
     height: 95px;
-    background-color: #222;
+    background-color: #45B035;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13463,7 +13466,9 @@ dl.dl-horizontal dt {
 #inquiry a:focus,
 #inquiry a:hover {
     text-decoration: none;
-    background-color: #45B035;
+    /* background-color: #45B035; */
+    opacity: .7;
+    transition: opacity .3s ease-in-out;
 }
 
 #inquiry a:active svg,
@@ -13508,7 +13513,7 @@ dl.dl-horizontal dt {
     bottom: 30px;
     right: 3%;
     display: block;
-    background: #111;
+    background: #45B035;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -13525,7 +13530,6 @@ dl.dl-horizontal dt {
 
 #pagetop:hover{
     border-radius: 50%;
-    background-color: #45B035;
     transition: all .3s ease-in-out;
 }
 
@@ -13938,11 +13942,12 @@ dl.dl-horizontal dt {
 #aside--contect .btn-contact,
 #aside--contect .btn-tel {
     height: 70px;
-    border: 2px solid #111;
+    border: 2px solid #45B035;
     padding: 24px 30px 20px 60px;
     text-align: center;
     border-radius: 0;
-    color: #111;
+    color: #45B035;
+    background: #fff;
     position: relative;
     font-weight: 700;
     margin-bottom: 10px;
@@ -13951,6 +13956,7 @@ dl.dl-horizontal dt {
 #aside--contect .btn-contact svg,
 #aside--contect .btn-tel svg {
     position: absolute;
+    fill: #45B035;
     left: -60px;
     width: 25px;
     z-index: 2;
