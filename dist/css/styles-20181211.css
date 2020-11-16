@@ -15074,23 +15074,98 @@ dl.dl-horizontal dt {
 
 @media (max-width:991px) {
     #rental-housing #bg01 {
-        padding-top: 400px
+        padding-top: 400px;
     }
-
 }
 
 @media (max-width:767px) {
     #rental-housing #bg01 {
-        padding-top: 350px
+        padding-top: 350px;
     }
-
 }
 
 @media (max-width:575px) {
     #rental-housing #bg01 {
-        padding-top: 300px
+        padding-top: 300px;
     }
+}
 
+#rental-housing #bg02 {
+    padding-top: 75%;
+    background-image: url("../img/service/rental-housing/young.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (max-width:991px) {
+    #rental-housing #bg02 {
+        padding-top: 400px;
+    }
+}
+
+@media (max-width:767px) {
+    #rental-housing #bg02 {
+        padding-top: 350px;
+    }
+}
+
+@media (max-width:575px) {
+    #rental-housing #bg02 {
+        padding-top: 300px;
+    }
+}
+
+#rental-housing #bg03 {
+    padding-top: 75%;
+    background-image: url("../img/service/rental-housing/family.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (max-width:991px) {
+    #rental-housing #bg03 {
+        padding-top: 400px;
+    }
+}
+
+@media (max-width:767px) {
+    #rental-housing #bg03 {
+        padding-top: 350px;
+    }
+}
+
+@media (max-width:575px) {
+    #rental-housing #bg03 {
+        padding-top: 300px;
+    }
+}
+
+#rental-housing #bg04 {
+    padding-top: 75%;
+    background-image: url("../img/service/rental-housing/middle.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (max-width:991px) {
+    #rental-housing #bg04 {
+        padding-top: 400px;
+    }
+}
+
+@media (max-width:767px) {
+    #rental-housing #bg04 {
+        padding-top: 350px;
+    }
+}
+
+@media (max-width:575px) {
+    #rental-housing #bg04 {
+        padding-top: 300px;
+    }
 }
 
 #company #message .section--title {
@@ -15104,9 +15179,8 @@ dl.dl-horizontal dt {
 @media (max-width:991px) {
     #company #message .section--title {
         position: relative;
-        top: 30px
+        top: 30px;
     }
-
 }
 
 #company #message .wrapper {
@@ -15117,9 +15191,8 @@ dl.dl-horizontal dt {
 
 @media (max-width:991px) {
     #company #message .wrapper {
-        padding-top: 0
+        padding-top: 0;
     }
-
 }
 
 #company #message #bg01 {
@@ -15136,23 +15209,20 @@ dl.dl-horizontal dt {
 @media (max-width:991px) {
     #company #message #bg01 {
         padding-top: 450px;
-        position: relative
+        position: relative;
     }
-
 }
 
 @media (max-width:767px) {
     #company #message #bg01 {
-        padding-top: 350px
+        padding-top: 350px;
     }
-
 }
 
 @media (max-width:575px) {
     #company #message #bg01 {
-        padding-top: 300px
+        padding-top: 300px;
     }
-
 }
 
 #company #message .message--body {
@@ -15163,16 +15233,14 @@ dl.dl-horizontal dt {
 
 @media (max-width:991px) {
     #company #message .message--body {
-        padding-top: 30px
+        padding-top: 30px;
     }
-
 }
 
 @media (max-width:767px) {
     #company #message .message--body {
-        padding-top: 20px
+        padding-top: 20px;
     }
-
 }
 
 #company #message .message--name {
@@ -15191,27 +15259,24 @@ dl.dl-horizontal dt {
     #company #profile .wrapper {
         padding-top: 40px;
         padding-left: 40px;
-        padding-right: 40px
+        padding-right: 40px;
     }
-
 }
 
 @media (max-width:767px) {
     #company #profile .wrapper {
         padding-top: 30px;
         padding-left: 30px;
-        padding-right: 30px
+        padding-right: 30px;
     }
-
 }
 
 @media (max-width:575px) {
     #company #profile .wrapper {
         padding-top: 20px;
         padding-left: 20px;
-        padding-right: 20px
+        padding-right: 20px;
     }
-
 }
 
 #company #profile .dl-horizontal {
@@ -15228,13 +15293,12 @@ dl.dl-horizontal dt {
 
 @media (max-width:991px) {
     #company #profile .dl-horizontal dt {
-        width: 100%
+        width: 100%;
     }
 
     #company #profile .dl-horizontal dd {
-        margin-left: 0
+        margin-left: 0;
     }
-
 }
 
 #company #profile .group {
@@ -15259,23 +15323,20 @@ dl.dl-horizontal dt {
 
 @media (max-width:991px) {
     #company #access .iframe-content {
-        padding-top: 400px
+        padding-top: 400px;
     }
-
 }
 
 @media (max-width:767px) {
     #company #access .iframe-content {
-        padding-top: 350px
+        padding-top: 350px;
     }
-
 }
 
 @media (max-width:575px) {
     #company #access .iframe-content {
-        padding-top: 300px
+        padding-top: 300px;
     }
-
 }
 
 #company #access .access--btn {
@@ -15314,9 +15375,8 @@ dl.dl-horizontal dt {
 
 @media (max-width:767px) {
     #faq span.number {
-        left: 15px
+        left: 15px;
     }
-
 }
 
 #faq span.number span {
@@ -15333,9 +15393,8 @@ dl.dl-horizontal dt {
 
 @media (max-width:767px) {
     #faq .dl-faq {
-        padding-left: 50px
+        padding-left: 50px;
     }
-
 }
 
 #faq .dl-faq dt {
