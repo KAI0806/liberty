@@ -10596,17 +10596,13 @@ iframe {
     right: 0;
     z-index: 10001;
     cursor: pointer;
-    width: 95px;
-    height: 95px;
+    width: 90px;
+    height: 85px;
     padding-top: 28px;
     background-color: #111;
     text-align: center;
     overflow: hidden;
-    /* display: none; */
-}
-
-#hamburger:hover{
-    opacity: .7;
+    display: none;
 }
 
 #hamburger:after {
@@ -10706,7 +10702,7 @@ iframe {
     width: calc(60% + 25px);
     height: 100%;
     overflow-y: scroll;
-    background: rgba(0, 0, 0, 0.849);
+    background: #000;
     padding-top: 0;
     padding-bottom: 30px;
     -webkit-overflow-scrolling: touch;
@@ -10734,6 +10730,7 @@ iframe {
 @media (max-width:991px) {
     #drawer {
         padding-top: 60px;
+        opacity: .9;
     }
 
 }
@@ -10808,11 +10805,6 @@ iframe {
 #drawer #drawer--body .drawer--nav li a,
 #drawer #drawer--body .drawer--nav li span {
     color: #fff;
-    text-decoration: none;
-}
-
-#drawer #drawer--body .drawer--nav li a:hover{
-    color: #45B035;
 }
 
 #overlay {
@@ -10861,28 +10853,37 @@ body.drawer-opened #overlay {
     animation-fill-mode: both;
 }
 
-body.drawer-opened #drawer {
-    z-index: 10000;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-animation: drawer-open .5s cubic-bezier(.19, 1, .22, 1) 0s;
-    animation: drawer-open .5s cubic-bezier(.19, 1, .22, 1) 0s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+@media (max-width:991px) {
+    body.drawer-opened #drawer {
+        z-index: 10000;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-animation: drawer-open .5s cubic-bezier(.19, 1, .22, 1) 0s;
+        animation: drawer-open .5s cubic-bezier(.19, 1, .22, 1) 0s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
 }
 
+@media (max-width:991px) and (max-width:767px) {
+    body.drawer-opened #drawer {
+        display: block;
+    }
 
-body.drawer-opened #drawer {
-    display: block;
 }
 
-body.drawer-closing #drawer {
-    -webkit-animation: drawer-close .3s cubic-bezier(.55, .055, .675, .19) 0s;
-    animation: drawer-close .3s cubic-bezier(.55, .055, .675, .19) 0s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+@media (max-width:991px) {
+    body.drawer-closing #drawer {
+        -webkit-animation: drawer-close .3s cubic-bezier(.55, .055, .675, .19) 0s;
+        animation: drawer-close .3s cubic-bezier(.55, .055, .675, .19) 0s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
 }
+
 
 body.drawer-closing #overlay {
     -webkit-animation: overlay-close .3s cubic-bezier(.55, .055, .675, .19) 0s;
@@ -13361,7 +13362,7 @@ dl.dl-horizontal dt {
 
 #inquiry {
     position: fixed;
-    right: 95px;
+    right: 0px;
     top: 0;
     z-index: 10002;
 }
@@ -15570,36 +15571,4 @@ dl.dl-horizontal dt {
 .tel-link a{
     color: #000;
     font-size: large;
-}
-
-/* メニューバー  */
-.menu{
-    height: 6em;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 4em;
-}
-
-.circle{
-    display: inline-block;
-    color: #000;
-    font-weight: 700;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    text-align:center;
-    line-height: 120px;
-    box-shadow: 10px 10px 20px #d6d6d6, 
-    -10px -10px 20px #ffffff;
-}
-
-.menu a:hover{
-    background: #45b035;
-    color: white;
-    text-decoration: none;
-    box-shadow: inset 10px 10px 20px #3a942d, 
-            inset -10px -10px 20px #50cc3d;
-    text-shadow: 5px 5px 3px #3a942d;
 }
