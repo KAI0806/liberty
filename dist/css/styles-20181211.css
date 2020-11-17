@@ -15417,6 +15417,10 @@ dl.dl-horizontal dt {
 }
 
 /*吹き出し*/
+#voice{
+    margin: 3em auto;
+}
+
 .balloon_l {
   margin: 30px 0;
   display:flex;
