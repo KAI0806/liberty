@@ -10602,7 +10602,11 @@ iframe {
     background-color: #111;
     text-align: center;
     overflow: hidden;
-    display: none;
+    /* display: none; */
+}
+
+#hamburger:hover{
+    opacity: .7;
 }
 
 #hamburger:after {
@@ -13362,7 +13366,7 @@ dl.dl-horizontal dt {
 
 #inquiry {
     position: fixed;
-    right: 0;
+    right: 90px;
     top: 0;
     z-index: 10002;
 }
@@ -15571,4 +15575,32 @@ dl.dl-horizontal dt {
 .tel-link a{
     color: #000;
     font-size: large;
+}
+
+/* メニューバー  */
+.menu{
+    height: 6em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a{
+    display: inline-block;
+    height: 100%;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2em;
+    transition: all .3s ease-in-out;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px gray;
+}
+
+.menu a:hover{
+    background: #45b035;
+    color: white;
 }
