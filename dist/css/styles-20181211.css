@@ -15568,7 +15568,29 @@ dl.dl-horizontal dt {
 }
 /* end SNS */
 
-.tel-link a{
-    color: #000;
-    font-size: large;
+#text{
+    background: #eeeeee;
+}
+
+#text ul{
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+}
+
+#text ul li{
+    text-align: center;
+    background: white;
+    border: 1px solid #eeeeee;
+}
+
+#text a{
+    color: black;
+    width: 100%;
+}
+
+#text a:hover{
+    background: #45B035;
+    color: white;
+    border-radius: 0px;
 }
